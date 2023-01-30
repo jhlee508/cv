@@ -1,3 +1,3 @@
 # Jaehwan Online CV
-### [jhlee508.github.io](https://jhlee508.github.io/)
-- LATEST UPDATE: ```2022.12.20```
+### [Online CV](https://jhlee508.github.io/cv/)
+- LATEST UPDATE: ```2022.01.30```
