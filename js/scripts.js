@@ -7,6 +7,7 @@
 $(document).ready(function () {
     $("#p_bio").load("./pages/bio.html")
     $("#p_publication").load("./pages/publication.html")
+    // $("#p_patent").load("./pages/patent.html")
     $("#p_experience").load("./pages/experience.html")
 });
 
