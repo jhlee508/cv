@@ -1,3 +1,3 @@
 # Jaehwan Online CV
 ### [CV PAGE](https://jhlee508.github.io/cv/)
-- LATEST UPDATE: ```2023.12.02```
+- Latest Update: ```2025.04.20```
