@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <script>
+        (function () {
+            var savedTheme = null;
+            try {
+                savedTheme = localStorage.getItem('theme');
+            } catch (e) {
+                savedTheme = null;
+            }
+            var preferredTheme = savedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', preferredTheme);
+        })();
+    </script>
     <title>Jaehwan Lee</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
@@ -54,6 +66,12 @@
     -->
     <div class="nav">
         <ul id="nav-bottom-right">
+            <li class="theme-toggle-item">
+                <button id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+                    <i class="fa-solid fa-moon"></i>
+                    <span class="theme-toggle-label">Dark</span>
+                </button>
+            </li>
             <li onClick="javascript:window.scrollTo(0,0)">
                 <i class="fa-solid fa-chevron-up"></i>
             </li>
